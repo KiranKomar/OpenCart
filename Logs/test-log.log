@@ -1,0 +1,106 @@
+2025-06-15 10:33:36 [main] INFO  Testcases.TestCase_1 - driver has started
+2025-06-15 10:33:37 [main] INFO  Testcases.TestCase_1 - App is logging into the applicationhttps://naveenautomationlabs.com/opencart
+2025-06-15 10:33:38 [main] INFO  Testcases.TestCase_1 - Clicked on 'My Account' link.
+2025-06-15 10:33:39 [main] INFO  Testcases.TestCase_1 - Clicked on registration page
+2025-06-15 10:33:39 [main] INFO  Testcases.TestCase_1 - entered the firstname
+2025-06-15 10:33:39 [main] INFO  Testcases.TestCase_1 - entered the last name
+2025-06-15 10:33:39 [main] INFO  Testcases.TestCase_1 - entered the email
+2025-06-15 10:33:39 [main] INFO  Testcases.TestCase_1 - entered the mobilenumber
+2025-06-15 10:33:39 [main] INFO  Testcases.TestCase_1 - entered the password
+2025-06-15 10:33:39 [main] INFO  Testcases.TestCase_1 - confirmed password
+2025-06-15 10:33:40 [main] INFO  Testcases.TestCase_1 - privacy policy clicked
+2025-06-15 10:33:40 [main] INFO  Testcases.TestCase_1 - continue button clicked
+2025-06-15 10:34:00 [main] INFO  Testcases.TestCase_1 - The driver is removed
+2025-06-15 10:35:40 [main] INFO  Testcases.TestCase_1 - driver has started
+2025-06-15 10:35:41 [main] INFO  Testcases.TestCase_1 - App is logging into the applicationhttps://naveenautomationlabs.com/opencart
+2025-06-15 10:35:41 [main] INFO  Testcases.TestCase_1 - Clicked on 'My Account' link.
+2025-06-15 10:35:43 [main] INFO  Testcases.TestCase_1 - Clicked on registration page
+2025-06-15 10:35:43 [main] INFO  Testcases.TestCase_1 - entered the firstname
+2025-06-15 10:35:43 [main] INFO  Testcases.TestCase_1 - entered the last name
+2025-06-15 10:35:43 [main] INFO  Testcases.TestCase_1 - entered the email
+2025-06-15 10:35:43 [main] INFO  Testcases.TestCase_1 - entered the mobilenumber
+2025-06-15 10:35:43 [main] INFO  Testcases.TestCase_1 - entered the password
+2025-06-15 10:35:44 [main] INFO  Testcases.TestCase_1 - confirmed password
+2025-06-15 10:35:44 [main] INFO  Testcases.TestCase_1 - privacy policy clicked
+2025-06-15 10:35:44 [main] INFO  Testcases.TestCase_1 - continue button clicked
+2025-06-15 10:36:04 [main] INFO  Testcases.TestCase_1 - The driver is removed
+2025-06-15 10:36:39 [main] INFO  Testcases.TestCase_1 - driver has started
+2025-06-15 10:36:39 [main] INFO  Testcases.TestCase_1 - App is logging into the applicationhttps://naveenautomationlabs.com/opencart
+2025-06-15 10:36:40 [main] INFO  Testcases.TestCase_1 - Clicked on 'My Account' link.
+2025-06-15 10:36:41 [main] INFO  Testcases.TestCase_1 - Clicked on registration page
+2025-06-15 10:36:41 [main] INFO  Testcases.TestCase_1 - entered the firstname
+2025-06-15 10:36:41 [main] INFO  Testcases.TestCase_1 - entered the last name
+2025-06-15 10:36:41 [main] INFO  Testcases.TestCase_1 - entered the email
+2025-06-15 10:36:41 [main] INFO  Testcases.TestCase_1 - entered the mobilenumber
+2025-06-15 10:36:41 [main] INFO  Testcases.TestCase_1 - entered the password
+2025-06-15 10:36:41 [main] INFO  Testcases.TestCase_1 - confirmed password
+2025-06-15 10:36:41 [main] INFO  Testcases.TestCase_1 - privacy policy clicked
+2025-06-15 10:36:42 [main] INFO  Testcases.TestCase_1 - continue button clicked
+2025-06-15 10:37:02 [main] INFO  Testcases.TestCase_1 - The driver is removed
+2025-06-15 10:37:48 [main] INFO  Testcases.TestCase_1 - driver has started
+2025-06-15 10:37:50 [main] INFO  Testcases.TestCase_1 - App is logging into the applicationhttps://naveenautomationlabs.com/opencart
+2025-06-15 10:37:50 [main] INFO  Testcases.TestCase_1 - Clicked on 'My Account' link.
+2025-06-15 10:37:51 [main] INFO  Testcases.TestCase_1 - Clicked on registration page
+2025-06-15 10:37:51 [main] INFO  Testcases.TestCase_1 - entered the firstname
+2025-06-15 10:37:51 [main] INFO  Testcases.TestCase_1 - entered the last name
+2025-06-15 10:37:51 [main] INFO  Testcases.TestCase_1 - entered the email
+2025-06-15 10:37:51 [main] INFO  Testcases.TestCase_1 - entered the mobilenumber
+2025-06-15 10:37:52 [main] INFO  Testcases.TestCase_1 - entered the password
+2025-06-15 10:37:52 [main] INFO  Testcases.TestCase_1 - confirmed password
+2025-06-15 10:37:52 [main] INFO  Testcases.TestCase_1 - privacy policy clicked
+2025-06-15 10:37:52 [main] INFO  Testcases.TestCase_1 - continue button clicked
+2025-06-15 10:37:53 [main] INFO  Testcases.TestCase_1 - completed the assertions
+2025-06-15 10:37:53 [main] INFO  Testcases.TestCase_1 - The driver is removed
+2025-06-15 10:44:36 [main] INFO  Testcases.TestCase_1 - driver has started
+2025-06-15 10:44:37 [main] INFO  Testcases.TestCase_1 - App is logging into the applicationhttps://naveenautomationlabs.com/opencart
+2025-06-15 10:44:38 [main] INFO  Testcases.TestCase_1 - Clicked on 'My Account' link.
+2025-06-15 10:44:39 [main] INFO  Testcases.TestCase_1 - Clicked on registration page
+2025-06-15 10:44:39 [main] INFO  Testcases.TestCase_1 - entered the firstname
+2025-06-15 10:44:39 [main] INFO  Testcases.TestCase_1 - entered the last name
+2025-06-15 10:44:39 [main] INFO  Testcases.TestCase_1 - entered the email
+2025-06-15 10:44:39 [main] INFO  Testcases.TestCase_1 - entered the mobilenumber
+2025-06-15 10:44:39 [main] INFO  Testcases.TestCase_1 - entered the password
+2025-06-15 10:44:39 [main] INFO  Testcases.TestCase_1 - confirmed password
+2025-06-15 10:44:40 [main] INFO  Testcases.TestCase_1 - privacy policy clicked
+2025-06-15 10:44:41 [main] INFO  Testcases.TestCase_1 - continue button clicked
+2025-06-15 10:44:41 [main] INFO  Testcases.TestCase_1 - completed the assertions
+2025-06-15 10:44:41 [main] INFO  Testcases.TestCase_1 - The driver is removed
+2025-06-15 10:46:16 [main] INFO  Testcases.TestCase_1 - driver has started
+2025-06-15 10:46:19 [main] INFO  Testcases.TestCase_1 - App is logging into the applicationhttps://naveenautomationlabs.com/opencart
+2025-06-15 10:46:19 [main] INFO  Testcases.TestCase_1 - Clicked on 'My Account' link.
+2025-06-15 10:46:20 [main] INFO  Testcases.TestCase_1 - Clicked on registration page
+2025-06-15 10:46:20 [main] INFO  Testcases.TestCase_1 - entered the firstname
+2025-06-15 10:46:20 [main] INFO  Testcases.TestCase_1 - entered the last name
+2025-06-15 10:46:21 [main] INFO  Testcases.TestCase_1 - entered the email
+2025-06-15 10:46:21 [main] INFO  Testcases.TestCase_1 - entered the mobilenumber
+2025-06-15 10:46:21 [main] INFO  Testcases.TestCase_1 - entered the password
+2025-06-15 10:46:21 [main] INFO  Testcases.TestCase_1 - confirmed password
+2025-06-15 10:46:21 [main] INFO  Testcases.TestCase_1 - privacy policy clicked
+2025-06-15 10:46:22 [main] INFO  Testcases.TestCase_1 - continue button clicked
+2025-06-15 10:46:23 [main] INFO  Testcases.TestCase_1 - The driver is removed
+2025-06-15 10:51:10 [main] INFO  Testcases.TestCase_1 - driver has started
+2025-06-15 10:51:14 [main] INFO  Testcases.TestCase_1 - App is logging into the applicationhttps://naveenautomationlabs.com/opencart
+2025-06-15 10:51:14 [main] INFO  Testcases.TestCase_1 - Clicked on 'My Account' link.
+2025-06-15 10:51:15 [main] INFO  Testcases.TestCase_1 - Clicked on registration page
+2025-06-15 10:51:15 [main] INFO  Testcases.TestCase_1 - entered the firstname
+2025-06-15 10:51:15 [main] INFO  Testcases.TestCase_1 - entered the last name
+2025-06-15 10:51:15 [main] INFO  Testcases.TestCase_1 - entered the email
+2025-06-15 10:51:15 [main] INFO  Testcases.TestCase_1 - entered the mobilenumber
+2025-06-15 10:51:15 [main] INFO  Testcases.TestCase_1 - entered the password
+2025-06-15 10:51:16 [main] INFO  Testcases.TestCase_1 - confirmed password
+2025-06-15 10:51:16 [main] INFO  Testcases.TestCase_1 - privacy policy clicked
+2025-06-15 10:51:17 [main] INFO  Testcases.TestCase_1 - continue button clicked
+2025-06-15 10:51:17 [main] INFO  Testcases.TestCase_1 - The driver is removed
+2025-07-11 19:19:35 [main] INFO  Testcases.TestCase_1 - driver has started
+2025-07-11 19:19:47 [main] INFO  Testcases.TestCase_1 - App is logging into the applicationhttps://naveenautomationlabs.com/opencart
+2025-07-11 19:19:47 [main] INFO  Testcases.TestCase_1 - Clicked on 'My Account' link.
+2025-07-11 19:19:48 [main] INFO  Testcases.TestCase_1 - Clicked on registration page
+2025-07-11 19:19:48 [main] INFO  Testcases.TestCase_1 - entered the firstname
+2025-07-11 19:19:48 [main] INFO  Testcases.TestCase_1 - entered the last name
+2025-07-11 19:19:49 [main] INFO  Testcases.TestCase_1 - entered the email
+2025-07-11 19:19:49 [main] INFO  Testcases.TestCase_1 - entered the mobilenumber
+2025-07-11 19:19:49 [main] INFO  Testcases.TestCase_1 - entered the password
+2025-07-11 19:19:49 [main] INFO  Testcases.TestCase_1 - confirmed password
+2025-07-11 19:19:49 [main] INFO  Testcases.TestCase_1 - privacy policy clicked
+2025-07-11 19:19:51 [main] INFO  Testcases.TestCase_1 - continue button clicked
+2025-07-11 19:19:52 [main] INFO  Testcases.TestCase_1 - The driver is removed
