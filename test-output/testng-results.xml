@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="2" total="3" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-11T19:19:27 IST" name="TestSuite" finished-at="2025-07-11T19:19:52 IST" duration-ms="24513">
+  <suite started-at="2025-07-21T18:08:02 IST" name="TestSuite" finished-at="2025-07-21T18:08:11 IST" duration-ms="8655">
     <groups>
       <group name="regression">
-        <method signature="TestCase_1.TestUserRegistration()[pri:0, instance:Testcases.TestCase_1@3a0baae5]" name="TestUserRegistration" class="Testcases.TestCase_1"/>
+        <method signature="TestCase_1.TestUserRegistration()[pri:0, instance:Testcases.TestCase_1@403f0a22]" name="TestUserRegistration" class="Testcases.TestCase_1"/>
       </group> <!-- regression -->
       <group name="master">
-        <method signature="TestCase_1.TestUserRegistration()[pri:0, instance:Testcases.TestCase_1@3a0baae5]" name="TestUserRegistration" class="Testcases.TestCase_1"/>
+        <method signature="TestCase_1.TestUserRegistration()[pri:0, instance:Testcases.TestCase_1@403f0a22]" name="TestUserRegistration" class="Testcases.TestCase_1"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2025-07-11T19:19:27 IST" name="windows-chrome" finished-at="2025-07-11T19:19:52 IST" duration-ms="24513">
+    <test started-at="2025-07-21T18:08:02 IST" name="windows-chrome" finished-at="2025-07-21T18:08:11 IST" duration-ms="8655">
       <class name="Testcases.TestCase_1">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Testcases.TestCase_1@3a0baae5]" started-at="2025-07-11T19:19:28 IST" name="setup" finished-at="2025-07-11T19:19:35 IST" duration-ms="7361" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Testcases.TestCase_1@403f0a22]" started-at="2025-07-21T18:08:03 IST" name="setup" finished-at="2025-07-21T18:08:06 IST" duration-ms="3715" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[windows]]>
+                <![CDATA[window]]>
               </value>
             </param>
             <param index="1">
@@ -29,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TestUserRegistration()[pri:0, instance:Testcases.TestCase_1@3a0baae5]" started-at="2025-07-11T19:19:35 IST" name="TestUserRegistration" finished-at="2025-07-11T19:19:51 IST" duration-ms="15449" status="FAIL">
+        <test-method signature="TestUserRegistration()[pri:0, instance:Testcases.TestCase_1@403f0a22]" started-at="2025-07-21T18:08:06 IST" name="TestUserRegistration" finished-at="2025-07-21T18:08:10 IST" duration-ms="4074" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[not matching expected [Your Account Has Been Created!...] but found [Your Account Has Been Created!]]]>
@@ -74,7 +74,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestUserRegistration -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.TestCase_1@3a0baae5]" started-at="2025-07-11T19:19:51 IST" name="teardown" finished-at="2025-07-11T19:19:52 IST" duration-ms="409" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.TestCase_1@403f0a22]" started-at="2025-07-21T18:08:11 IST" name="teardown" finished-at="2025-07-21T18:08:11 IST" duration-ms="297" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

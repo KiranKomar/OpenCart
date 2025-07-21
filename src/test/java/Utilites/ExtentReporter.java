@@ -1,7 +1,5 @@
 package Utilites;
-//testng report similation
 
-import java.awt.Desktop;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -11,6 +9,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -24,6 +23,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 import Testcases.BaseClass;
 
 public class ExtentReporter implements ITestListener {
+
     private static ExtentReports extent;
     private static ExtentSparkReporter sparkReporter;
     private static ThreadLocal<ExtentTest> testNode = new ThreadLocal<>();
@@ -86,10 +86,16 @@ public class ExtentReporter implements ITestListener {
 
         try {
             String screenshotPath = captureScreenshot(result.getName());
-            test.addScreenCaptureFromPath(screenshotPath, "Failure Screenshot");
+            if (screenshotPath != null) {
+                test.addScreenCaptureFromPath(screenshotPath, "Failure Screenshot");
+            } else {
+                test.warning("⚠️ Screenshot could not be captured because WebDriver was null.");
+            }
         } catch (IOException e) {
+            test.warning("⚠️ Exception while taking screenshot: " + e.getMessage());
             e.printStackTrace();
         }
+
         test.info("Execution Time: " + getExecutionTime(result) + " ms");
     }
 
@@ -112,14 +118,22 @@ public class ExtentReporter implements ITestListener {
         getExtentInstance().flush();
     }
 
-  
-
+    // 🔧 Improved screenshot capture with null check
     private String captureScreenshot(String testName) throws IOException {
+        WebDriver driver = BaseClass.getDriver();
+
+        if (driver == null) {
+            System.out.println("⚠️ WebDriver is null, cannot capture screenshot for: " + testName);
+            return null;
+        }
+
         String timestamp = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
         String screenshotPath = System.getProperty("user.dir") + "\\screenshots\\" + testName + "_" + timestamp + ".png";
-      File sourceFile = ((TakesScreenshot) BaseClass.getDriver()).getScreenshotAs(OutputType.FILE);
-        File targetFile = new File(screenshotPath);
-       sourceFile.renameTo(targetFile);
+
+        File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        File destFile = new File(screenshotPath);
+        org.apache.commons.io.FileUtils.copyFile(srcFile, destFile);
+
         return screenshotPath;
     }
 

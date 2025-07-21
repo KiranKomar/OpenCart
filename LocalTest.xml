@@ -9,7 +9,7 @@
 			<!--<include name="Sanity" /> -->
 			<!--<include name="Regression" />-->
 			<!--<exclude name="" /> -->
-			<!--<include name="Datadriven" />-->
+		<!--	<include name="Datadriven" />-->
 		</run>
 	</groups>
 	
@@ -18,20 +18,21 @@
 	</listeners>
 	
 	<test name="windows-chrome" enabled="true">
-		<parameter name="os" value="windows"/>
+		<parameter name="os" value="window"/>
 		<parameter name="browser" value="chrome"/>
 		<classes>
 			<class name="Testcases.TestCase_1"/>
+			<class name="Testcases.TC2_DDT"/>
 		
 		</classes>
 	</test>
 	
 	<test name="windows-edge" enabled="false">
-		<parameter name="os" value="windows"/>
+		<parameter name="os" value="window"/>
 		<parameter name="browser" value="edge"/>
 		<classes>
 			<class name="Testcases.TestCase_1"/>
-		
+		<class name="Testcases.TC2_DDT"/>
 		</classes>
 	</test>
 		
